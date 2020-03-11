@@ -11,13 +11,7 @@ const Article = () => {
       {({ data: { article } }) => {
         return (
           <div>
-            <div
-              id="banner"
-              className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding uk-margin"
-              data-src={process.env.API_URL + article.image.url}
-              data-srcset={process.env.API_URL + article.image.url}
-              data-uk-img
-            >
+            <div>
               <h1>{article.title}</h1>
             </div>
 

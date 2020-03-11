@@ -9,9 +9,6 @@ const ARTICLES_QUERY = gql`
         id
         name
       }
-      image {
-        url
-      }
     }
   }
 `;
